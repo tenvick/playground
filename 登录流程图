@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T10:34:50.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="SN7RoF8fmeUizFL7a1_T" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T10:39:25.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="hNh5-xtKBrwsxvJ13o2o" version="16.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,8 +38,43 @@
         <mxCell id="uhBYMF7xf34OkR2A009F-7" value="测试完毕上传代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="540" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="uhBYMF7xf34OkR2A009F-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uhBYMF7xf34OkR2A009F-8" target="uhBYMF7xf34OkR2A009F-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uhBYMF7xf34OkR2A009F-8" value="通知qa" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhBYMF7xf34OkR2A009F-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uhBYMF7xf34OkR2A009F-10" target="uhBYMF7xf34OkR2A009F-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhBYMF7xf34OkR2A009F-10" value="qa通知服务器更新本地测试服join run" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhBYMF7xf34OkR2A009F-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uhBYMF7xf34OkR2A009F-12" target="uhBYMF7xf34OkR2A009F-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhBYMF7xf34OkR2A009F-12" value="qa验收本地测试服join run" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhBYMF7xf34OkR2A009F-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uhBYMF7xf34OkR2A009F-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhBYMF7xf34OkR2A009F-14" value="验收完毕通知服务器更新到外网测试服" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhBYMF7xf34OkR2A009F-18" value="qa验收外网测试服join run&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="960" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uhBYMF7xf34OkR2A009F-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uhBYMF7xf34OkR2A009F-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="960" as="sourcePoint" />
+            <mxPoint x="370" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhBYMF7xf34OkR2A009F-20" value="通知服务器更新到正式服" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
